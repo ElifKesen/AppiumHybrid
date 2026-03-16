@@ -26,13 +26,13 @@ public class Kiwi {
         page.misafirButonu.click();
         Thread.sleep(2000);
 
-        // ardindan gelecek olan 3 adimda da yesil butona basilarak devam edilir
-        for (int i = 0; i <3 ; i++) {
+        // ardindan gelecek olan 4 adimda yesil butona (Continue ve Explore the App) basilarak devam edilir
+        for (int i = 0; i <4 ; i++) {
             ReusableMethods.koordinatTiklamaMethodu(550,2060,500);
         }
 
       // Trip type,one way olarak secilir
-        page.returnButonu.click();
+        page.secimButton.click();
         Thread.sleep(2000);
         page.oneWayButonu.click();
         Thread.sleep(2000);

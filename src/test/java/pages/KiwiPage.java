@@ -14,8 +14,8 @@ public class KiwiPage {
 @FindBy(xpath = "(//*[@class='android.widget.Button'])[4]")
     public WebElement misafirButonu;
 
-    @FindBy(xpath = "//*[@text='Return']")
-    public WebElement returnButonu;
+    @FindBy(xpath = " (//*[@class='android.view.View'])[5]")
+    public WebElement secimButton;
 
     @FindBy(xpath = "//*[@text='One way']")
     public WebElement oneWayButonu;
